@@ -1,4 +1,5 @@
-Hello, my name is Rob.
-I like drinking tea and eating chocolate biscuits.
+Hello, my name is Shi Zhan.
+I like drinking coke and eating.
 I am enjoying teaching IBI1 in person again 
 I am happy that I can push my repo from Visual Studio Code to GitHub
+yesyesyes
