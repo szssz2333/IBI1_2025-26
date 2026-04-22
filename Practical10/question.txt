@@ -1,0 +1,3 @@
+Question: What was the distribution of DALYs across all countries in 2019?
+Start: Line 33
+Result discussion: The 2019 global DALYs scatter plot shows that most countries cluster in the lower range, with only a few having extremely high values, resulting in a clear right‑skewed distribution. This is as expected, since large differences in economic development and healthcare conditions across countries lead to unequal distribution of disease burden.
