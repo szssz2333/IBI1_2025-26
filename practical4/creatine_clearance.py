@@ -13,7 +13,7 @@ if weight < 20 or weight > 80:#judge weight
 if gender != 'male' and gender != 'female':#judge gender
     print('gender should only be male or female')
     error=True
-if Cr<0 or Cr > 100:#judge Cr level
+if Cr<=0 or Cr > 100:#judge Cr level
     print('creatine concentration is not in range')
     error=True
 if error == False:#calculate CrCl if all passed
