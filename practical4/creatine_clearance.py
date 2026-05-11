@@ -4,19 +4,19 @@ gender=input('enter your gender,it should only be male or female')
 Cr=float(input('enter creatine concentration,in µmol/l'))
 CrCl=0
 error=False
-if age >= 100:
+if age >= 100:#judge age
     print('your age is bigger than 100')
     error=True
-if weight < 20 or weight > 80:
+if weight < 20 or weight > 80:#judge weight
     print('your weight is not in range')
     error=True
-if gender != 'male' and gender != 'female':
+if gender != 'male' and gender != 'female':#judge gender
     print('gender should only be male or female')
     error=True
-if Cr > 100:
+if Cr<0 or Cr > 100:#judge Cr level
     print('creatine concentration is not in range')
     error=True
-if error == False:
+if error == False:#calculate CrCl if all passed
     if gender == 'male':
         CrCl=(140-age)*weight/72/Cr
     else:
